@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "deeplinkguide",
     "name": "deeplink-guide",
     "slug": "deeplink-guide",
     "version": "1.0.0",
@@ -18,7 +19,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "deeplinkguide"
     },
     "android": {
       "adaptiveIcon": {
