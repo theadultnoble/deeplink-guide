@@ -6,10 +6,10 @@ const HomeScreen = ({navigation}) => {
   return (
     <View style={styles.container}>
       <View>
-      <Button title = "settings"  onPress={navigation.navigate("Settings")} />
-      <StatusBar style="auto" />
       <Text>HomeScreen</Text>
+      <Button title = "settings"  onPress={navigation.navigate("Settings")} />
       </View>
+      <StatusBar style="auto" />
     </View>
   );
 };
